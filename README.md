@@ -19,9 +19,32 @@ This game demonstrates basic 3D game development concepts using Three.js, includ
   - Vertical movement (Q/E keys)
   - Missile shooting (Spacebar)
 
+- **Detailed Helicopter Model**:
+  - Realistic forward-facing fuselage with cockpit windows
+  - Animated main and tail rotors with correct orientation
+  - Tail boom with vertical stabilizer
+  - Landing skids with support struts
+  - Semi-transparent cockpit windows
+
+- **Enhanced Gameplay Elements**:
+  - Tracking turret enemies that follow the helicopter
+  - Destructible wooden crates with texture
+  - Strategic enemy placement around the island
+  - Improved palm trees with natural leaf arrangement
+
+- **Tropical Environment**:
+  - Dynamic skybox with moving clouds
+  - Tropical island with grass terrain
+  - Sandy beach surrounding the island
+  - Animated water with wave effects
+  - Decorative palm trees around the island perimeter
+  - Enhanced lighting system with main sun and fill lights
+
 - **Camera System**:
   - Dynamic follow camera
-  - Smooth camera tilting during turns (25-degree max tilt)
+  - Responsive camera tilting during turns (25-degree max tilt)
+  - Quick and smooth automatic camera reset
+  - Enhanced rotation dampening
   - Lerp-based camera transitions
 
 - **Game Elements**:
@@ -54,6 +77,35 @@ This game demonstrates basic 3D game development concepts using Three.js, includ
 - No additional dependencies required
 
 ## Changelog
+
+### Version 1.4.1
+- Added enhanced lighting system with three-point lighting setup
+- Increased ambient light intensity for better visibility
+- Added directional sun light with shadows
+- Implemented fill light for better object definition
+
+### Version 1.4
+- Fixed helicopter orientation to face forward
+- Added tracking turret enemies that follow the player
+- Replaced simple destructible objects with textured wooden crates
+- Improved palm tree appearance with natural leaf arrangement
+- Enhanced camera reset behavior with faster transition
+- Adjusted enemy placement for better gameplay balance
+
+### Version 1.3
+- Completely redesigned helicopter model with detailed components
+- Added realistic helicopter features (tail boom, skids, cockpit windows)
+- Improved rotor animations for both main and tail rotors
+- Enhanced camera behavior with smooth reset after turns
+- Added extra rotation dampening for more natural movement
+
+### Version 1.2
+- Added tropical island environment
+- Implemented dynamic cloud system with delta-time movement
+- Added animated water surrounding the island
+- Added palm trees around the island perimeter
+- Created sandy beach transition between grass and water
+- Enhanced scene atmosphere with skybox
 
 ### Version 1.1
 - Added ground platform for better spatial reference
